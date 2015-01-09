@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'vincentregular';
+    src: url('vincent-regular-vincent.eot');
+    src: url('vincent-regular-vincent.eot?#iefix') format('embedded-opentype'),
+         url('vincent-regular-vincent.woff') format('woff'),
+         url('vincent-regular-vincent.ttf') format('truetype'),
+         url('vincent-regular-vincent.svg#vincentregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

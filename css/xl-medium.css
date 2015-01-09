@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.12.2014., 14:07:08
+    Author     : Denis
+*/
+
+@media only screen and (max-width: 959px) {
+    h1{
+        font-size: 2.25em;
+    }
+     header > h4 {
+        top: 1em;
+    }
+	 video[autoplay]{
+     width: 79%;
+	 height: 100%;
+     left: 4em;
+	 top: 2em;
+ }
+ .intro {
+     min-width: 70%;
+ }
+	 .button {
+     height: 20%;
+     bottom: 0em;
+   }
+}

@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.12.2014., 14:07:08
+    Author     : Denis
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    h1{
+        font-size: 2.25em;
+    }
+     header > h4 {
+        top: 2em;
+    }
+	 .button {
+     height: 20%;
+     bottom: -2em;
+   }
+}
