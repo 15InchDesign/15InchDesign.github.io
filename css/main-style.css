@@ -253,7 +253,7 @@ header > h4 {
   text-align: center;
   position: relative;
   left: 0;
-  top: 1em;
+  top: -2em;
   z-index: 500;
   width: 100%;
   height: auto;  
