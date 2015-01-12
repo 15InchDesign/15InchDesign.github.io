@@ -419,8 +419,8 @@ video[autoplay] {
      line-height: 1.5em;
  }
  header > h4 {
-     font-size: 0.9em;
-     top: 1em;
+     font-size: 0.7em;
+	 top: -2em;
  }
  video[autoplay]{
      width: 79%;
