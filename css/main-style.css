@@ -354,13 +354,13 @@ video[autoplay] {
         top: 1em;
     }
 	 video[autoplay]{
-     width: 79%;
+     width: 100%;
 	 height: 100%;
      left: 4em;
 	 top: 2em;
  }
  .intro {
-     min-width: 70%;
+     min-width: 100%;
  }
 	 .button {
      height: 20%;
@@ -423,13 +423,11 @@ video[autoplay] {
 	 top: -2em;
  }
  video[autoplay]{
-     width: 79%;
+     width: 100%;
 	 height: 100%;
-     left: 4em;
-	 top: 2em;
  }
  .intro {
-     min-width: 70%;
+     min-width: 100%;
  }
  .button{
      height: 20%;
