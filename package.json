@@ -1,6 +1,7 @@
 {
   "name": "Portfolio",
   "version": "0.1.0",
+  "reposatory": "https://github.com/15inchdesign/15inchdesign.github.io"
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
