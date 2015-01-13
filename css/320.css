@@ -11,7 +11,6 @@ and open the template in the editor.
 /*********************************************************/
                   /* Damn small devices */
 /*********************************************************/
-/* Smaller than standard 960 (WTF?) */
 @media only screen and (max-width: 320px){
   h1 {
 	font-size: 1.5em;
