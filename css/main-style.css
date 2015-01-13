@@ -152,11 +152,12 @@ input[type=button] {width: auto; overflow: visible;}
         
 }
 
-html {
+html ,body {
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
+    
       
    
 }
@@ -167,18 +168,8 @@ body {
     position: relative;
     display: none;
     font-size: 100%;
-	width: 100%;
-    height: 100%;
-
 }
 
-.container {
-    min-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    min-height: 100%;
-}
 
 /*********************************************************/
                   /* Styling header text */
