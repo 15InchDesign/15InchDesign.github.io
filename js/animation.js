@@ -51,5 +51,6 @@ $(function(){
 
 $(function(){
     $('h1').addClass('animated fadeInDownBig');
+    $('h4').addClass('animated flipInY');
 });
 

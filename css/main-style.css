@@ -167,7 +167,7 @@ body {
     display: none;
     font: 100%/1.5 'vincentregular', 'Roboto Slab', sans-serif;
     width: auto;
-    max-width: 960px;
+    max-width: 100%;
 }
 
 
@@ -213,6 +213,7 @@ header{
   display: inline-block;
   position: relative;
   z-index: 666;
+  margin: auto;
 
 }
  i[class="icon fa fa-star"] {
@@ -250,7 +251,8 @@ header > h4 {
   top: 0;
   z-index: 666;
   width: 100%;
-  height: auto;  
+  height: auto;
+  margin: auto;
 }
 /*********************************************************/
                   /* Styling video & poster */
