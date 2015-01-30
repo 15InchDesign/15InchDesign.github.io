@@ -11,7 +11,7 @@ and open the template in the editor.
 /*********************************************************/
                   /* Damn small devices */
 /*********************************************************/
-
+@media(min-width: 500px)and(max-width: 600px){
  h1 {
 	font-size: 1.5em;
   }
@@ -44,3 +44,4 @@ and open the template in the editor.
   .button {
      bottom: 0em;
   }
+}
