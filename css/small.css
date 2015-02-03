@@ -1,8 +1,4 @@
 
-/* 
-    Created on : 21.12.2014., 20:35:07
-    Author     : Denis
-*/
  /* iDiot screen */
  #header {
      top: 0;
@@ -34,7 +30,7 @@ top: 15%;
 }
 
 .button {
-    bottom: 0.4em;
+    bottom: -1.6em;
 }
 .button > button {
 margin: 0em;

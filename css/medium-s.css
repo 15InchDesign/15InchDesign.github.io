@@ -1,24 +1,32 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 23.12.2014., 14:07:08
-    Author     : Denis
-*/
 
-@media only screen and (max-width: 767px){
-    h1{
-        font-size: 1.75em;
+    h1 {
+	font-size: 1.5em;
+  }
+  header > h4 {
+      font-size: 0.9em;
+      top: 0;
+  }
+    video[autoplay] {
+        min-width: 70%;
+        min-height: 100%;
+        width: 70%;
+        height: 100%;
+        position: fixed;
+        background: black;
+        left: 15%;
+        top: 5%;
     }
-     header > h4 {
-        font-size: 1.3em;
-        top: 1em;
-    }
+    .intro{
+        min-width: 70%;
+        min-height: 100%;
+        width: 70%;
+        height: 100%;
+        left: 15%;
+        top: 15%;
+}
 	 .button{
-     height: 20%;
-     bottom: 0em;
+             height: 20%;
+             bottom: 0.9em;
    }
     .button > button {
     font-size: 0.7em;
@@ -26,4 +34,4 @@ and open the template in the editor.
    .button > button.push:hover {
     font-size:0.7em;  
   }
-}
+
