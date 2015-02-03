@@ -262,6 +262,7 @@ video[autoplay] {
     height: 100%;
     position: fixed;
     background: black;
+    backface-visibility: hidden;
 }
 .intro {
     position: fixed; 
@@ -274,6 +275,7 @@ video[autoplay] {
     z-index: -100; 
     background: url('../img/poster.png') no-repeat black;
     background-size: 100% 100%;
+    backface-visibility: hidden;
    
 }
 
@@ -287,7 +289,8 @@ video[autoplay] {
      top: 0;
      left: 0;
      right: 0;
-     bottom: 0; 
+     bottom: 0;
+     backface-visibility: hidden;
 }
 /*********************************************************/
                   /* Styling video end */
@@ -305,6 +308,7 @@ video[autoplay] {
     bottom: 3em;
     text-align: center;
     height: auto;
+    backface-visibility: hidden;
 }
 .button > button {
     margin: 3em;
