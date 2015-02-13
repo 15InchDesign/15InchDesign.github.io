@@ -262,21 +262,11 @@ video[autoplay] {
     height: 100%;
     position: fixed;
     background: black;
-    backface-visibility: hidden;
-}
-.intro {
-    position: fixed; 
-    right: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    width: 100%; 
-    height: 100%; 
-    z-index: -100; 
-    background: url('../img/poster.png') no-repeat black;
-    background-size: 100% 100%;
     backface-visibility: hidden;
-   
 }
 
 #overaly {
@@ -289,8 +279,7 @@ video[autoplay] {
      top: 0;
      left: 0;
      right: 0;
-     bottom: 0;
-     backface-visibility: hidden;
+     bottom: 0; 
 }
 /*********************************************************/
                   /* Styling video end */
@@ -308,7 +297,6 @@ video[autoplay] {
     bottom: 3em;
     text-align: center;
     height: auto;
-    backface-visibility: hidden;
 }
 .button > button {
     margin: 3em;
