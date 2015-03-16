@@ -363,7 +363,7 @@ video[autoplay] {
 	cursor: default;
 }
 
-/*.steps {
+.steps {
     height: 100%;
 }
 .bg-fixed{
@@ -385,7 +385,7 @@ video[autoplay] {
     right: 25%;
     bottom: 25%;
 }
-.bg-fixed.form-2
+/*.bg-fixed.form-2
 {
     width: 50%;
     height: auto;
@@ -442,9 +442,8 @@ header.form-info{
     text-rendering: optimizeLegibility;
 }
 #step-1 {
-      margin: 13em auto;
+      margin: auto;
       text-align: center;
-      width: 75%;
 }
 form[class="about"]{
     margin: 9em auto;
