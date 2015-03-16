@@ -442,8 +442,9 @@ header.form-info{
     text-rendering: optimizeLegibility;
 }
 #step-1 {
-    margin: auto;
-    text-align: center;
+      margin: 13em auto;
+      text-align: center;
+      width: 75%;
 }
 form[class="about"]{
     margin: 9em auto;
