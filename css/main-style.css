@@ -174,7 +174,7 @@ body {
 /*********************************************************/
                   /* Styling header text */
 /*********************************************************/
-header{
+header.headline{
     /*height: auto;*/
     position: relative;
    /* top: 0rem;*/
@@ -297,6 +297,7 @@ video[autoplay] {
     bottom: 3em;
     text-align: center;
     height: auto;
+	offset: 0;
 }
 .button > button {
     margin: 3em;
@@ -328,6 +329,155 @@ video[autoplay] {
     font-family: "vincentregular",sans-serif;
     letter-spacing: 0.2em;
  }
+ /*********************************************************/
+                  /* Let's build a forms*/
+/**********************************************************/
+#form{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background: url('../img/imgform-bg.jpg') no-repeat;/*#fa8072*/ /* ? #fa8072*/ /*#6495ED blue*/ /*#9B2C3C*/
+    display: none;
+	background-size: cover;
+}
+#close {
+	position: absolute;
+	color: #fff;
+	font: normal 2.5em/2em 'Raleway-Ext-Light', sans-serif;
+	right: 4em;
+	top: 0;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	text-rendering: auto;
+	display: block;
+	
+}
+#close:hover{
+	color: #000;
+	cursor: default;
+}
+
+.steps {
+    height: 100%;
+}
+.bg-fixed{
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+.bg-fixed.form-1
+{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+}
+.bg-fixed.form-2
+{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+}
+.bg-fixed.form-3
+{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 54%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+}
+
+.bg-srew-you{
+	min-height: 100%;
+}
+
+/*.animate-in .form-1,
+.animate-in .form-2,
+.animate-in .form-3{
+    left: 25%;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.animate-out .form-1,
+.animate-out .form-2,
+.animate-out .form-3{
+    left: 50em;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    transition-duration: 1s;
+}*/
+header.form-info{
+    font: normal normal 2.4em/1.5em 'Roboto Slab', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.01em;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    -webkit-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+}
+/*#step-1 {
+    margin: auto;
+    text-align: center;*/
+}
+form[class="about"]{
+    margin: 9em auto;
+	text-align: center;
+    
+}
+
+input[type="text"]
+{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    color: whitesmoke !important;
+    width: 75%;
+    padding: 0.1em;
+    font: normal 2em/1.1em 'Roboto Slab', sans;
+    margin: 1em auto;
+}
+        /*flushing input & textarea fields*/
+		
+input:focus { outline: none;}
+input:focus::-webkit-input-placeholder { color:transparent; outline-offset: 0; }
+input:focus:-moz-placeholder { color:transparent ; outline-offset: 0; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent !important; outline-offset: 0; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; outline-offset: 0; } /* IE 10+ */
+		
+				/*toilet flushed*/
+
+
+/**********************************************************/
+                  /* End of form*/
+/**********************************************************/
 
 
 
