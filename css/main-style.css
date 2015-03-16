@@ -363,7 +363,7 @@ video[autoplay] {
 	cursor: default;
 }
 
-.steps {
+/*.steps {
     height: 100%;
 }
 .bg-fixed{
@@ -408,7 +408,7 @@ video[autoplay] {
 
 .bg-srew-you{
 	min-height: 100%;
-}
+}*/
 
 /*.animate-in .form-1,
 .animate-in .form-2,
@@ -441,9 +441,9 @@ header.form-info{
     -webkit-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
 }
-/*#step-1 {
+#step-1 {
     margin: auto;
-    text-align: center;*/
+    text-align: center;
 }
 form[class="about"]{
     margin: 9em auto;
