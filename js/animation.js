@@ -73,15 +73,7 @@ $(function () {
         });
     });
 	// parllax
-         $(function () {
-		 $('section.form-1').stellar({
-		 horizontalOffset: 0,
-		 verticalOffset: 0,
-		 horizontalScrolling: true,
-		 verticalScrolling: true,
-		 scrollProperty: 'transform'
-		 });
-	});
+
 });
 
         
