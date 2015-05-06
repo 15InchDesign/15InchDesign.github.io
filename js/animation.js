@@ -62,15 +62,15 @@ $(function () {
             'display': 'block'
         });
     });
-    $(function () {
-        $('#close').click(function () {
+   // $(function () {
+     //   $('#close').click(function () {
             //close.preventDefault();
             //$('#form').addClass('animated zoomOut');
                    // $(this).css({'display': 'none'});
-            $('#form').slideUp(2000);
+       //     $('#form').slideUp(2000);
           //  close.preventDefault();
 
-        });
+        //});
     });
 });
 
