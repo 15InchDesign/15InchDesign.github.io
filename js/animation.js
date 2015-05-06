@@ -56,14 +56,14 @@ $(function () {
 		//$('html').remove('<img id="preload" src="img/anim-logo.gif" alt="BOONER" />');
 //});
 
-/*$(function () {
-    $('.push').click(function () {
+$(function () {
+    $('').click(function () {
         $('#form').addClass('animated rollIn').css({
             'display': 'block'
         });
-    });*/
+    });
     $(function () {
-        $('#close').click(function () {
+        $('').click(function () {
             //close.preventDefault();
             //$('#form').addClass('animated zoomOut');
                    // $(this).css({'display': 'none'});
