@@ -62,7 +62,7 @@ $(function () {
             'display': 'block'
         });
     });*/
-  /*  $(function () {
+    $(function () {
         $('#close').click(function () {
             //close.preventDefault();
             //$('#form').addClass('animated zoomOut');
@@ -70,9 +70,9 @@ $(function () {
             $('#form').slideUp(2000);
             close.preventDefault();
 
-        });*/
-    });*/
-});*/
+        });
+    });
+});
 
         
 
