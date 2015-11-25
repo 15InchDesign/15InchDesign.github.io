@@ -70,10 +70,10 @@ $(function () {
             $('#form').slideUp(2000);
             close.preventDefault();
             
-            $(function() {
-             $('button').onclick(function (){
-             	alert('Still working on IT, have a nice day! ');
-             });
+            
+             $('button').click(function (){
+             	alert('Still working on IT, have a nice day!');
+            
              });
        
         	});
