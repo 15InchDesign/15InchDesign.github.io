@@ -69,7 +69,11 @@ $(function () {
                    // $(this).css({'display': 'none'});
             $('#form').slideUp(2000);
             close.preventDefault();
-
+        $(function(){
+        	$('.push').click(function({
+        		alert('Still working on IT', have a nice day!)
+        	}));
+        });
         });
     });
 });
