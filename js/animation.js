@@ -71,7 +71,7 @@ $(function () {
             close.preventDefault();
             
             $(function() {
-             $('button').click(function (){
+             $('button').onclick(function (){
              	alert('Still working on IT, have a nice day! ');
              });
              });
