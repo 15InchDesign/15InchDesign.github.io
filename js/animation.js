@@ -51,6 +51,9 @@
 $(function () {
     $('h1').addClass('animated fadeInDownBig');
     $('h4').addClass('animated flipInY');
+    $('button').click(function (){
+          alert('Still working on IT, have a nice day!');
+    });
     
 });
 //$(function(){
