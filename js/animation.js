@@ -51,10 +51,7 @@
 $(function () {
     $('h1').addClass('animated fadeInDownBig');
     $('h4').addClass('animated flipInY');
-    $('div > button').onclick(function (){
-             	alert('Still working on IT, have a nice day!');
-            
-             });
+    
 });
 //$(function(){
 		//$('html').remove('<img id="preload" src="img/anim-logo.gif" alt="BOONER" />');
@@ -79,9 +76,9 @@ $(function () {
              });
         });
  $(function (){       
-$(' button').onclick(function (){
+$('button').onclick(function (){
              	alert('Still working on IT, have a nice day!');
-    })
+    });
 });
 
         
