@@ -78,8 +78,11 @@ $(function () {
      
              });
         });
-        
-
+ $(function (){       
+$(' button').onclick(function (){
+             	alert('Still working on IT, have a nice day!');
+    })
+});
 
         
 
